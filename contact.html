@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact — MonPortfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>MonPortfolio</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><strong>Contact</strong></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <img src="images/avatar-contact.jpg" alt="Photo contact" width="250" />
+
+        <h2>Contactez-moi</h2>
+
+        <p>
+          Une question, une proposition de stage ou de projet ? Écrivez-moi via
+          le formulaire ci-dessous.
+        </p>
+      </section>
+
+      <section>
+        <h2>Formulaire de contact</h2>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Vos coordonnées</legend>
+
+            <label for="nom">Nom</label><br />
+            <input type="text" id="nom" name="nom" required />
+
+            <br /><br />
+
+            <label for="email">E-mail</label><br />
+            <input type="email" id="email" name="email" required />
+          </fieldset>
+
+          <br />
+
+          <fieldset>
+            <legend>Votre message</legend>
+
+            <label for="sujet">Sujet</label><br />
+
+            <select id="sujet" name="sujet">
+              <optgroup label="Opportunités">
+                <option>Stage</option>
+                <option>Projet</option>
+              </optgroup>
+
+              <optgroup label="Autre">
+                <option>Demande d'information</option>
+                <option>Question</option>
+              </optgroup>
+            </select>
+
+            <br /><br />
+
+            <label for="message">Message</label><br />
+
+            <textarea id="message" name="message" rows="6" cols="30"></textarea>
+
+            <br /><br />
+
+            <input type="checkbox" id="consentement" name="consentement" />
+
+            <label for="consentement">
+              J'accepte d'être recontacté(e) par e-mail.
+            </label>
+          </fieldset>
+
+          <br />
+
+          <input type="submit" value="Envoyer" />
+        </form>
+      </section>
+
+      <aside>
+        <h2>Coordonnées</h2>
+
+        <p>
+          Email :
+          <a href="mailto:contact@monportfolio.dev">
+            contact@monportfolio.dev
+          </a>
+        </p>
+
+        <p>Localisation : Tunis, Tunisie</p>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 MonPortfolio</p>
+
+      <ul>
+        <li>
+          <a href="https://linkedin.com/in/lea-dev" target="_blank">
+            LinkedIn
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/lea-dev" target="_blank"> GitHub </a>
+        </li>
+
+        <li>
+          <a href="mailto:contact@monportfolio.dev" target="_blank"> Mail </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
